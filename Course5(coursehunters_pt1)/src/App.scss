@@ -1,0 +1,22 @@
+.car{
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 1px #eee;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.AppButton{
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:focus, &:active{
+    outline: none;
+  }
+
+  &:hover {
+    background: #fff81c;
+  }
+}
