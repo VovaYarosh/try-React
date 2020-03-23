@@ -7,10 +7,11 @@ class  Todo extends React.Component{
     render(){
         const {title,deleteTodo} = this.props
         return(
-            <div className="todo">
+            <div className="todo mb-2">
                 <p>{title}</p>
                 <button
-                  onClick={(e)=> deleteTodo(e,this.props.id)}
+                  onClick={()=> deleteTodo(this.props.id)}
+                  className='btn btn-danger'
                 >
                 Delete
                 </button>

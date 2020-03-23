@@ -1,42 +1,49 @@
 import React from 'react'
 import {Switch, Route} from 'react-router'
+import axios from 'axios'
 
 import Todos from './Todos/Todos'
 import AddTodo from './AddTodo/AddTodo'
+import Navbar from './Navbar/Navbar'
 
 class App extends React.Component {
     state = {
-        todos:[
-            {id:1,title: "Todoz 1"},
-            {id:2,title: "Todoz 2"},
-            {id:3,title: "Todoz 3"}
-        ]
+        todos: null
     }
-    deleteTodo = (e,id) => {
+    deleteTodo = (id) => {
         this.setState({todos: this.state.todos.filter(todo => todo.id !== id)})
     }
-    render(){
-        if (this.state.todos.length === 0){
-            return <h1>no tasks</h1>
-        }
-        return (
-            <div>
-                <h1>List of todo</h1>
 
+    addTodo = todo => {
+        this.setState({todos: [todo,...this.state.todos]})
+    }
+
+    componentDidMount(){
+        axios.get("https://jsonplaceholder.typicode.com/todos")
+            .then(res => {
+                this.setState({todos: res.data})
+            })
+    }
+
+    render(){
+        return (
+            <div className='container'>
+                <Navbar/>
                 <Switch>
-                    <Route exact path='/add' component={AddTodo}/>
+                    <Route
+                        exact
+                        path='/add'
+                        render={() => <AddTodo addTodo={this.addTodo}/>}
+                    />
                     <Route
                         exact
                         path="/"
                         render={()=> {
-                            return (<Todos todos={this.state.todos}/>)
+                            return (<Todos todos={this.state.todos} deleteTodo={this.deleteTodo}/>)
                         }
                         }
                     />
                 </Switch>
-
-
-
             </div>
         )
     }
