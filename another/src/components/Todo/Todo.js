@@ -1,4 +1,7 @@
 import React from 'react'
+import {connect} from 'react-redux'
+
+import {deleteTodo} from '../../store/actions/todoActions'
 
 import "./Todo.css"
 
@@ -20,4 +23,4 @@ class  Todo extends React.Component{
     }
 }
 
-export default Todo
+export default connect(null,{deleteTodo})(Todo)

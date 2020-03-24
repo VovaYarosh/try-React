@@ -1,5 +1,8 @@
 import React from 'react'
-import {useHistory} from 'react-router'
+import {connect} from "react-redux"
+
+import {addTodo} from '../../store/actions/todoActions'
+
 import  "./AddTodo.css"
 
 export class AddTodo extends React.Component{
@@ -15,8 +18,6 @@ export class AddTodo extends React.Component{
         e.preventDefault()
         this.props.addTodo({id: Date.now(),title: this.state.title})
         this.setState({title: ""})
-        let history = useHistory()
-        history.push('/')
     }
     render(){
         return(
@@ -42,4 +43,6 @@ export class AddTodo extends React.Component{
     }
 }
 
-export default AddTodo
+
+
+export default connect(null,{addTodo})(AddTodo)
