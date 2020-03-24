@@ -7,23 +7,6 @@ import AddTodo from './AddTodo/AddTodo'
 import Navbar from './Navbar/Navbar'
 
 class App extends React.Component {
-    state = {
-        todos: null
-    }
-    deleteTodo = (id) => {
-        this.setState({todos: this.state.todos.filter(todo => todo.id !== id)})
-    }
-
-    addTodo = todo => {
-        this.setState({todos: [todo,...this.state.todos]})
-    }
-
-    componentDidMount(){
-        axios.get("https://jsonplaceholder.typicode.com/todos")
-            .then(res => {
-                this.setState({todos: res.data})
-            })
-    }
 
     render(){
         return (
