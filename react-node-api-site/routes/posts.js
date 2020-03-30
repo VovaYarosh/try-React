@@ -218,7 +218,7 @@ router.delete(
         });
       }
     } else {
-      return res.json({ error: "Comment not found" });
+      return res.json({ error: "Comment.js not found" });
     }
   }
 );
