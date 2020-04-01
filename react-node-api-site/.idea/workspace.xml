@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="withAuth.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="withAuth.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/hocs/withAuth.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -31,6 +31,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditPost.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/components/EditPost/EditPost.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -62,7 +74,6 @@
         <option value="$PROJECT_DIR$/client/src/components/Posts/Posts.js" />
         <option value="$PROJECT_DIR$/client/src/components/Post/Post.js" />
         <option value="$PROJECT_DIR$/client/src/components/App.js" />
-        <option value="$PROJECT_DIR$/client/src/components/EditPost/EditPost.js" />
         <option value="$PROJECT_DIR$/client/src/components/PostPage/PostPage.js" />
         <option value="$PROJECT_DIR$/client/src/components/Comments/Comments.js" />
         <option value="$PROJECT_DIR$/client/src/store/actions/index.js" />
@@ -72,6 +83,7 @@
         <option value="$PROJECT_DIR$/client/src/store/reducers/postReducer.js" />
         <option value="$PROJECT_DIR$/client/src/components/AddPost/AddPost.js" />
         <option value="$PROJECT_DIR$/client/src/hocs/withAuth.js" />
+        <option value="$PROJECT_DIR$/client/src/components/EditPost/EditPost.js" />
       </list>
     </option>
   </component>
@@ -136,7 +148,7 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AddPost" type="462c0819:PsiDirectoryNode" />
+              <item name="EditPost" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,16 +194,15 @@
       <workItem from="1585454448731" duration="8714000" />
       <workItem from="1585471727784" duration="707000" />
       <workItem from="1585499169114" duration="596000" />
-      <workItem from="1585543084474" duration="5718000" />
+      <workItem from="1585543084474" duration="6710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34288000" />
+    <option name="totallyTimeSpent" value="35280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24255952" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -460,16 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/EditPost/EditPost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -565,6 +566,16 @@
           <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/EditPost/EditPost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="71" column="78" selection-start-line="71" selection-start-column="78" selection-end-line="71" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
