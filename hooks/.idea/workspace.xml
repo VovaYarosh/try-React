@@ -17,7 +17,7 @@
       <file leaf-file-name="useFetch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/node_modules/hooks/useFetch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="660">
               <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/node_modules/pages/authentication/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-332">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="288">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -50,7 +50,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="useLocalStorage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/hooks/useLocalStorage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/node_modules/components/topBar.js" />
         <option value="$PROJECT_DIR$/src/node_modules/hooks/useFetch.js" />
         <option value="$PROJECT_DIR$/src/node_modules/routes.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/hooks/useLocalStorage.js" />
         <option value="$PROJECT_DIR$/src/node_modules/pages/authentication/index.js" />
       </list>
     </option>
@@ -176,16 +193,15 @@
       <updated>1585718942929</updated>
       <workItem from="1585718952219" duration="4686000" />
       <workItem from="1585800914227" duration="7306000" />
-      <workItem from="1585887203790" duration="3064000" />
+      <workItem from="1585887203790" duration="4337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15056000" />
+    <option name="totallyTimeSpent" value="16329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -300,16 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/hooks/useFetch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -320,10 +326,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/hooks/useLocalStorage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/hooks/useFetch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/pages/authentication/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-332">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="288">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
