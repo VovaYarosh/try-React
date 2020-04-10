@@ -29,11 +29,17 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/node_modules/pages/settings/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currentUser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node_modules/contexts/currentUser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -77,7 +83,6 @@
         <option value="$PROJECT_DIR$/src/node_modules/components/feedToggler.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/tagList.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/feed.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/contexts/currentUser.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/currentUserChecker.js" />
         <option value="$PROJECT_DIR$/src/node_modules/components/article.js" />
         <option value="$PROJECT_DIR$/src/node_modules/pages/authentication/index.js" />
@@ -86,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/node_modules/pages/editArticle/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/pages/article/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/routes.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/contexts/currentUser.js" />
         <option value="$PROJECT_DIR$/src/node_modules/pages/settings/index.js" />
       </list>
     </option>
@@ -140,15 +146,7 @@
               <item name="hooks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hooks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="contexts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,16 +206,15 @@
       <workItem from="1586319258636" duration="7377000" />
       <workItem from="1586406619220" duration="1687000" />
       <workItem from="1586441226496" duration="290000" />
-      <workItem from="1586491353365" duration="2833000" />
+      <workItem from="1586491353365" duration="3892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58695000" />
+    <option name="totallyTimeSpent" value="59754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -565,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/contexts/currentUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369">
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/components/topBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -589,13 +579,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/contexts/currentUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/node_modules/pages/settings/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
